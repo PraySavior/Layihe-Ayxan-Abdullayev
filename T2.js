@@ -1,4 +1,4 @@
-let first = document.querySelector('.first') 
+let first = document.querySelector('.first')  
 let second = document.querySelector('.second')
 let third = document.querySelector('.third')
 let fourth = document.querySelector('.fourth')
