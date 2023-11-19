@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+
+    color: #FFF;
+    /* background-color: red; */
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 1.2;
+    padding-top: 20px;
+    height: 94px;
+
+}
+
+.port{
+    font-weight: 800;
+    width: 100%;
+}
+
+.mid {
+    position: relative;
+    top: -55px;
+    height: 1300px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #222;
+}
+
+ul {
+    color: #FFFFFF66;
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    transition: .3s all ease;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #222;
+    border: none;
+    color: #FFFFFF66;
+}
+
+button:hover {
+    color: #BAC964;
+}
+
+.photos {
+    /* background-color: royalblue; */
+    position: relative;
+    width: 1140px;
+    height: 944.98px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.photos-1 {
+    width: 349.98px;
+    height: 349.98px;
+}
+
+.sections {
+    margin-bottom: 50px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.photos h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.photos p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cccccc;
+}
